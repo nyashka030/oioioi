@@ -32,22 +32,24 @@ class Cat:
     def is_alive(self):
         if self.hunger >= 10 or self.happiness <= 0 or self.energy <= 0:
             print(f"{self.name} has passed away. ")
-        self.alive = False def end_of_day(self):
-    print(f'{self.name} - Hunger: {self.hunger}, Happiness: {self.happiness}, Energy: {self.energy}')
-def live(self, day):    print(f'Day {day} of {self.name}\'s life')
+        self.alive = False
 
+    def end_of_day(self):
+        print(f'{self.name} - Hunger: {self.hunger}, Happiness: {self.happiness}, Energy: {self.energy}')
 
-action = random.choice(["eat", "play", "sleep"])
-if action == "eat":
-    self.eat()
-elif action == "play":    self.play()
-else:
-self.sleep()
-self.end_of_day()
-self.is_alive()
+    def live(self, day):
+        print(f'Day {day} of {self.name}\'s life')
+        action = random.choice(["eat", "play", "sleep"])
+        if action == "eat":
+            self.eat()
+        elif action == "play":
+            self.play()
+        else:
+            self.sleep()
+        self.end_of_day()
+        self.is_alive()
 
 whiskers = Cat(name="Whiskers")
-
 for day in range(365):
     if not whiskers.alive:
         break
