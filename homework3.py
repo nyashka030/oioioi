@@ -192,13 +192,13 @@ class Job:
 job_list = {
 
     "Java developer":
-    {"salary":50, "gladness_less": 10 },
+    {"salary": 50, "gladness_less": 10},
     "Python developer":
-    {"salary":40, "gladness_less": 3 },
+    {"salary": 40, "gladness_less": 3},
     "C++ developer":
-     {"salary":45, "gladness_less": 25 },
+     {"salary": 45, "gladness_less": 25},
     "Rust developer":
-    {"salary":70, "gladness_less": 1 },
+    {"salary": 70, "gladness_less": 1},
 }
 brands_of_car = {
     "BMW": {"fuel": 100, "strength":100, "consumption": 6},
